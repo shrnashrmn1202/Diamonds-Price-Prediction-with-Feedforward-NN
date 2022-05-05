@@ -18,7 +18,9 @@ A feedforward neural network is constructed that is catered for regression probl
 - Hidden layer
 - Output layer
 
-The model is trained with a batch size of 64 and for 100 epochs. Early stopping is applied in this training. The training stops at epoch 25, with a training MAE of 736 and validation MAE of 535. The two figures below show the graph of the training process, indicating the convergence of model training.
+The model is trained with a batch size of 64 and for 100 epochs. Early stopping is applied in this training. The training stops at epoch 26, with a training MAE of 765 and validation MAE of 414 as shown in the figure below:
+![image](https://user-images.githubusercontent.com/100325884/166849535-981ccceb-926f-4c26-b77a-d36bcf74f119.png)
+
 
 ## Results
 Upon evaluating the model with test data, the model obtain the following test results:
